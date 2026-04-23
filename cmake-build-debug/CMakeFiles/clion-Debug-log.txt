@@ -1,7 +1,28 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/nicolasosorio/seguimiento2 -B /Users/nicolasosorio/seguimiento2/cmake-build-debug
--- Found OpenMP_C: -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include (found version "5.1")
--- Found OpenMP_CXX: -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include (found version "5.1")
--- Found OpenMP: TRUE (found version "5.1")
--- Configuring done (0.4s)
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/nicolas/seguimiento2 -B /Users/nicolas/seguimiento2/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_C: -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include  
+-- Found OpenMP_CXX: -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include  
+-- Found OpenMP: TRUE   
+-- Configuring done (17.3s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/nicolasosorio/seguimiento2/cmake-build-debug
+-- Build files have been written to: /Users/nicolas/seguimiento2/cmake-build-debug

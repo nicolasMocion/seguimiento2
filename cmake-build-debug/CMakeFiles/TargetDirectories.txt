@@ -1,3 +1,3 @@
-/Users/nicolasosorio/seguimiento2/cmake-build-debug/CMakeFiles/seguimiento2.dir
-/Users/nicolasosorio/seguimiento2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nicolasosorio/seguimiento2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles/seguimiento2.dir
+/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
