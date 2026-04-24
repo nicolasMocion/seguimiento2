@@ -111,11 +111,221 @@ CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/NaivOnArray.cpp -o CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s
 
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o: /Users/nicolas/seguimiento2/naivLoopUnrollingTwo.cpp
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o -MF CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o.d -o CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o -c /Users/nicolas/seguimiento2/naivLoopUnrollingTwo.cpp
+
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/naivLoopUnrollingTwo.cpp > CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.i
+
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/naivLoopUnrollingTwo.cpp -o CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.s
+
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o: /Users/nicolas/seguimiento2/naivLoopUnrollingFour.cpp
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o -MF CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o.d -o CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o -c /Users/nicolas/seguimiento2/naivLoopUnrollingFour.cpp
+
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/naivLoopUnrollingFour.cpp > CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.i
+
+CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/naivLoopUnrollingFour.cpp -o CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.s
+
+CMakeFiles/seguimiento2.dir/Winograd.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/Winograd.cpp.o: /Users/nicolas/seguimiento2/Winograd.cpp
+CMakeFiles/seguimiento2.dir/Winograd.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/seguimiento2.dir/Winograd.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/Winograd.cpp.o -MF CMakeFiles/seguimiento2.dir/Winograd.cpp.o.d -o CMakeFiles/seguimiento2.dir/Winograd.cpp.o -c /Users/nicolas/seguimiento2/Winograd.cpp
+
+CMakeFiles/seguimiento2.dir/Winograd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/Winograd.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/Winograd.cpp > CMakeFiles/seguimiento2.dir/Winograd.cpp.i
+
+CMakeFiles/seguimiento2.dir/Winograd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/Winograd.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/Winograd.cpp -o CMakeFiles/seguimiento2.dir/Winograd.cpp.s
+
+CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o: /Users/nicolas/seguimiento2/winogradScaled.cpp
+CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o -MF CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o.d -o CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o -c /Users/nicolas/seguimiento2/winogradScaled.cpp
+
+CMakeFiles/seguimiento2.dir/winogradScaled.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/winogradScaled.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/winogradScaled.cpp > CMakeFiles/seguimiento2.dir/winogradScaled.cpp.i
+
+CMakeFiles/seguimiento2.dir/winogradScaled.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/winogradScaled.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/winogradScaled.cpp -o CMakeFiles/seguimiento2.dir/winogradScaled.cpp.s
+
+CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o: /Users/nicolas/seguimiento2/strassenNaiv.cpp
+CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o -MF CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o.d -o CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o -c /Users/nicolas/seguimiento2/strassenNaiv.cpp
+
+CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/strassenNaiv.cpp > CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.i
+
+CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/strassenNaiv.cpp -o CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.s
+
+CMakeFiles/seguimiento2.dir/strassenWin.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/strassenWin.cpp.o: /Users/nicolas/seguimiento2/strassenWin.cpp
+CMakeFiles/seguimiento2.dir/strassenWin.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/seguimiento2.dir/strassenWin.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/strassenWin.cpp.o -MF CMakeFiles/seguimiento2.dir/strassenWin.cpp.o.d -o CMakeFiles/seguimiento2.dir/strassenWin.cpp.o -c /Users/nicolas/seguimiento2/strassenWin.cpp
+
+CMakeFiles/seguimiento2.dir/strassenWin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/strassenWin.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/strassenWin.cpp > CMakeFiles/seguimiento2.dir/strassenWin.cpp.i
+
+CMakeFiles/seguimiento2.dir/strassenWin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/strassenWin.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/strassenWin.cpp -o CMakeFiles/seguimiento2.dir/strassenWin.cpp.s
+
+CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o: /Users/nicolas/seguimiento2/bloqSeqIII.cpp
+CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o -MF CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o.d -o CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o -c /Users/nicolas/seguimiento2/bloqSeqIII.cpp
+
+CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/bloqSeqIII.cpp > CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.i
+
+CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/bloqSeqIII.cpp -o CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.s
+
+CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o: /Users/nicolas/seguimiento2/parallelbloqIII.cpp
+CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o -MF CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o.d -o CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o -c /Users/nicolas/seguimiento2/parallelbloqIII.cpp
+
+CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/parallelbloqIII.cpp > CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.i
+
+CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/parallelbloqIII.cpp -o CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.s
+
+CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o: /Users/nicolas/seguimiento2/blockEnIII.cpp
+CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o -MF CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o.d -o CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o -c /Users/nicolas/seguimiento2/blockEnIII.cpp
+
+CMakeFiles/seguimiento2.dir/blockEnIII.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/blockEnIII.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/blockEnIII.cpp > CMakeFiles/seguimiento2.dir/blockEnIII.cpp.i
+
+CMakeFiles/seguimiento2.dir/blockEnIII.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/blockEnIII.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/blockEnIII.cpp -o CMakeFiles/seguimiento2.dir/blockEnIII.cpp.s
+
+CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o: /Users/nicolas/seguimiento2/blockSeqIV.cpp
+CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o -MF CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o.d -o CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o -c /Users/nicolas/seguimiento2/blockSeqIV.cpp
+
+CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/blockSeqIV.cpp > CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.i
+
+CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/blockSeqIV.cpp -o CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.s
+
+CMakeFiles/seguimiento2.dir/blockParIV.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/blockParIV.cpp.o: /Users/nicolas/seguimiento2/blockParIV.cpp
+CMakeFiles/seguimiento2.dir/blockParIV.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/seguimiento2.dir/blockParIV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/blockParIV.cpp.o -MF CMakeFiles/seguimiento2.dir/blockParIV.cpp.o.d -o CMakeFiles/seguimiento2.dir/blockParIV.cpp.o -c /Users/nicolas/seguimiento2/blockParIV.cpp
+
+CMakeFiles/seguimiento2.dir/blockParIV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/blockParIV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/blockParIV.cpp > CMakeFiles/seguimiento2.dir/blockParIV.cpp.i
+
+CMakeFiles/seguimiento2.dir/blockParIV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/blockParIV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/blockParIV.cpp -o CMakeFiles/seguimiento2.dir/blockParIV.cpp.s
+
+CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o: /Users/nicolas/seguimiento2/blockEnhIV.cpp
+CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o -MF CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o.d -o CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o -c /Users/nicolas/seguimiento2/blockEnhIV.cpp
+
+CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/blockEnhIV.cpp > CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.i
+
+CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/blockEnhIV.cpp -o CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.s
+
+CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o: /Users/nicolas/seguimiento2/blockSeqV.cpp
+CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o -MF CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o.d -o CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o -c /Users/nicolas/seguimiento2/blockSeqV.cpp
+
+CMakeFiles/seguimiento2.dir/blockSeqV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/blockSeqV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/blockSeqV.cpp > CMakeFiles/seguimiento2.dir/blockSeqV.cpp.i
+
+CMakeFiles/seguimiento2.dir/blockSeqV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/blockSeqV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/blockSeqV.cpp -o CMakeFiles/seguimiento2.dir/blockSeqV.cpp.s
+
+CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o: /Users/nicolas/seguimiento2/parallelBlockV.cpp
+CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o -MF CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o.d -o CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o -c /Users/nicolas/seguimiento2/parallelBlockV.cpp
+
+CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/parallelBlockV.cpp > CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.i
+
+CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/parallelBlockV.cpp -o CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.s
+
 # Object files for target seguimiento2
 seguimiento2_OBJECTS = \
 "CMakeFiles/seguimiento2.dir/main.cpp.o" \
 "CMakeFiles/seguimiento2.dir/aux.cpp.o" \
-"CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o"
+"CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o" \
+"CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o" \
+"CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o" \
+"CMakeFiles/seguimiento2.dir/Winograd.cpp.o" \
+"CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o" \
+"CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o" \
+"CMakeFiles/seguimiento2.dir/strassenWin.cpp.o" \
+"CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o" \
+"CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o" \
+"CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o" \
+"CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o" \
+"CMakeFiles/seguimiento2.dir/blockParIV.cpp.o" \
+"CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o" \
+"CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o" \
+"CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o"
 
 # External object files for target seguimiento2
 seguimiento2_EXTERNAL_OBJECTS =
@@ -123,10 +333,24 @@ seguimiento2_EXTERNAL_OBJECTS =
 seguimiento2: CMakeFiles/seguimiento2.dir/main.cpp.o
 seguimiento2: CMakeFiles/seguimiento2.dir/aux.cpp.o
 seguimiento2: CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/Winograd.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/strassenWin.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/blockParIV.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o
 seguimiento2: CMakeFiles/seguimiento2.dir/build.make
 seguimiento2: /opt/homebrew/opt/libomp/lib/libomp.dylib
 seguimiento2: CMakeFiles/seguimiento2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable seguimiento2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable seguimiento2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/seguimiento2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,15 +4,10 @@
 
 #include <iostream>
 #include <vector>
-#include <thread>
-#include <chrono>
 #include <iomanip>
-#include <vector>
 #include <algorithm>
-#include <functional>
-#include <fstream>
 #include <utility>
-
+#include "functions.h"
 
 using namespace std;
 
@@ -26,7 +21,7 @@ void inicializarMatriz(vector<vector<int64_t>>& matriz, int n) {
 }
 
 // Función para imprimir una muestra de la matriz
-void imprimirMuestraMatriz(const string& nombre, const vector<vector<int64_t>>& matriz, int limite = 5) {
+void imprimirMuestraMatriz(const string& nombre, const vector<vector<int64_t>>& matriz, int limite) {
     int n = matriz.size();
 
     // Nos aseguramos de no intentar imprimir más de lo que la matriz tiene
@@ -63,3 +58,4 @@ void restarMatrices(const vector<vector<int64_t>>& A, const vector<vector<int64_
         }
     }
 }
+

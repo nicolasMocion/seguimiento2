@@ -153,6 +153,30 @@ NaivOnArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s
 .PHONY : NaivOnArray.cpp.s
 
+Winograd.o: Winograd.cpp.o
+.PHONY : Winograd.o
+
+# target to build an object file
+Winograd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/Winograd.cpp.o
+.PHONY : Winograd.cpp.o
+
+Winograd.i: Winograd.cpp.i
+.PHONY : Winograd.i
+
+# target to preprocess a source file
+Winograd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/Winograd.cpp.i
+.PHONY : Winograd.cpp.i
+
+Winograd.s: Winograd.cpp.s
+.PHONY : Winograd.s
+
+# target to generate assembly for a file
+Winograd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/Winograd.cpp.s
+.PHONY : Winograd.cpp.s
+
 aux.o: aux.cpp.o
 .PHONY : aux.o
 
@@ -176,6 +200,150 @@ aux.s: aux.cpp.s
 aux.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/aux.cpp.s
 .PHONY : aux.cpp.s
+
+blockEnIII.o: blockEnIII.cpp.o
+.PHONY : blockEnIII.o
+
+# target to build an object file
+blockEnIII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnIII.cpp.o
+.PHONY : blockEnIII.cpp.o
+
+blockEnIII.i: blockEnIII.cpp.i
+.PHONY : blockEnIII.i
+
+# target to preprocess a source file
+blockEnIII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnIII.cpp.i
+.PHONY : blockEnIII.cpp.i
+
+blockEnIII.s: blockEnIII.cpp.s
+.PHONY : blockEnIII.s
+
+# target to generate assembly for a file
+blockEnIII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnIII.cpp.s
+.PHONY : blockEnIII.cpp.s
+
+blockEnhIV.o: blockEnhIV.cpp.o
+.PHONY : blockEnhIV.o
+
+# target to build an object file
+blockEnhIV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.o
+.PHONY : blockEnhIV.cpp.o
+
+blockEnhIV.i: blockEnhIV.cpp.i
+.PHONY : blockEnhIV.i
+
+# target to preprocess a source file
+blockEnhIV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.i
+.PHONY : blockEnhIV.cpp.i
+
+blockEnhIV.s: blockEnhIV.cpp.s
+.PHONY : blockEnhIV.s
+
+# target to generate assembly for a file
+blockEnhIV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockEnhIV.cpp.s
+.PHONY : blockEnhIV.cpp.s
+
+blockParIV.o: blockParIV.cpp.o
+.PHONY : blockParIV.o
+
+# target to build an object file
+blockParIV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockParIV.cpp.o
+.PHONY : blockParIV.cpp.o
+
+blockParIV.i: blockParIV.cpp.i
+.PHONY : blockParIV.i
+
+# target to preprocess a source file
+blockParIV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockParIV.cpp.i
+.PHONY : blockParIV.cpp.i
+
+blockParIV.s: blockParIV.cpp.s
+.PHONY : blockParIV.s
+
+# target to generate assembly for a file
+blockParIV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockParIV.cpp.s
+.PHONY : blockParIV.cpp.s
+
+blockSeqIV.o: blockSeqIV.cpp.o
+.PHONY : blockSeqIV.o
+
+# target to build an object file
+blockSeqIV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.o
+.PHONY : blockSeqIV.cpp.o
+
+blockSeqIV.i: blockSeqIV.cpp.i
+.PHONY : blockSeqIV.i
+
+# target to preprocess a source file
+blockSeqIV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.i
+.PHONY : blockSeqIV.cpp.i
+
+blockSeqIV.s: blockSeqIV.cpp.s
+.PHONY : blockSeqIV.s
+
+# target to generate assembly for a file
+blockSeqIV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqIV.cpp.s
+.PHONY : blockSeqIV.cpp.s
+
+blockSeqV.o: blockSeqV.cpp.o
+.PHONY : blockSeqV.o
+
+# target to build an object file
+blockSeqV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqV.cpp.o
+.PHONY : blockSeqV.cpp.o
+
+blockSeqV.i: blockSeqV.cpp.i
+.PHONY : blockSeqV.i
+
+# target to preprocess a source file
+blockSeqV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqV.cpp.i
+.PHONY : blockSeqV.cpp.i
+
+blockSeqV.s: blockSeqV.cpp.s
+.PHONY : blockSeqV.s
+
+# target to generate assembly for a file
+blockSeqV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/blockSeqV.cpp.s
+.PHONY : blockSeqV.cpp.s
+
+bloqSeqIII.o: bloqSeqIII.cpp.o
+.PHONY : bloqSeqIII.o
+
+# target to build an object file
+bloqSeqIII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.o
+.PHONY : bloqSeqIII.cpp.o
+
+bloqSeqIII.i: bloqSeqIII.cpp.i
+.PHONY : bloqSeqIII.i
+
+# target to preprocess a source file
+bloqSeqIII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.i
+.PHONY : bloqSeqIII.cpp.i
+
+bloqSeqIII.s: bloqSeqIII.cpp.s
+.PHONY : bloqSeqIII.s
+
+# target to generate assembly for a file
+bloqSeqIII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/bloqSeqIII.cpp.s
+.PHONY : bloqSeqIII.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -201,6 +369,174 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+naivLoopUnrollingFour.o: naivLoopUnrollingFour.cpp.o
+.PHONY : naivLoopUnrollingFour.o
+
+# target to build an object file
+naivLoopUnrollingFour.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.o
+.PHONY : naivLoopUnrollingFour.cpp.o
+
+naivLoopUnrollingFour.i: naivLoopUnrollingFour.cpp.i
+.PHONY : naivLoopUnrollingFour.i
+
+# target to preprocess a source file
+naivLoopUnrollingFour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.i
+.PHONY : naivLoopUnrollingFour.cpp.i
+
+naivLoopUnrollingFour.s: naivLoopUnrollingFour.cpp.s
+.PHONY : naivLoopUnrollingFour.s
+
+# target to generate assembly for a file
+naivLoopUnrollingFour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingFour.cpp.s
+.PHONY : naivLoopUnrollingFour.cpp.s
+
+naivLoopUnrollingTwo.o: naivLoopUnrollingTwo.cpp.o
+.PHONY : naivLoopUnrollingTwo.o
+
+# target to build an object file
+naivLoopUnrollingTwo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.o
+.PHONY : naivLoopUnrollingTwo.cpp.o
+
+naivLoopUnrollingTwo.i: naivLoopUnrollingTwo.cpp.i
+.PHONY : naivLoopUnrollingTwo.i
+
+# target to preprocess a source file
+naivLoopUnrollingTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.i
+.PHONY : naivLoopUnrollingTwo.cpp.i
+
+naivLoopUnrollingTwo.s: naivLoopUnrollingTwo.cpp.s
+.PHONY : naivLoopUnrollingTwo.s
+
+# target to generate assembly for a file
+naivLoopUnrollingTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/naivLoopUnrollingTwo.cpp.s
+.PHONY : naivLoopUnrollingTwo.cpp.s
+
+parallelBlockV.o: parallelBlockV.cpp.o
+.PHONY : parallelBlockV.o
+
+# target to build an object file
+parallelBlockV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.o
+.PHONY : parallelBlockV.cpp.o
+
+parallelBlockV.i: parallelBlockV.cpp.i
+.PHONY : parallelBlockV.i
+
+# target to preprocess a source file
+parallelBlockV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.i
+.PHONY : parallelBlockV.cpp.i
+
+parallelBlockV.s: parallelBlockV.cpp.s
+.PHONY : parallelBlockV.s
+
+# target to generate assembly for a file
+parallelBlockV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelBlockV.cpp.s
+.PHONY : parallelBlockV.cpp.s
+
+parallelbloqIII.o: parallelbloqIII.cpp.o
+.PHONY : parallelbloqIII.o
+
+# target to build an object file
+parallelbloqIII.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.o
+.PHONY : parallelbloqIII.cpp.o
+
+parallelbloqIII.i: parallelbloqIII.cpp.i
+.PHONY : parallelbloqIII.i
+
+# target to preprocess a source file
+parallelbloqIII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.i
+.PHONY : parallelbloqIII.cpp.i
+
+parallelbloqIII.s: parallelbloqIII.cpp.s
+.PHONY : parallelbloqIII.s
+
+# target to generate assembly for a file
+parallelbloqIII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/parallelbloqIII.cpp.s
+.PHONY : parallelbloqIII.cpp.s
+
+strassenNaiv.o: strassenNaiv.cpp.o
+.PHONY : strassenNaiv.o
+
+# target to build an object file
+strassenNaiv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.o
+.PHONY : strassenNaiv.cpp.o
+
+strassenNaiv.i: strassenNaiv.cpp.i
+.PHONY : strassenNaiv.i
+
+# target to preprocess a source file
+strassenNaiv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.i
+.PHONY : strassenNaiv.cpp.i
+
+strassenNaiv.s: strassenNaiv.cpp.s
+.PHONY : strassenNaiv.s
+
+# target to generate assembly for a file
+strassenNaiv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenNaiv.cpp.s
+.PHONY : strassenNaiv.cpp.s
+
+strassenWin.o: strassenWin.cpp.o
+.PHONY : strassenWin.o
+
+# target to build an object file
+strassenWin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenWin.cpp.o
+.PHONY : strassenWin.cpp.o
+
+strassenWin.i: strassenWin.cpp.i
+.PHONY : strassenWin.i
+
+# target to preprocess a source file
+strassenWin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenWin.cpp.i
+.PHONY : strassenWin.cpp.i
+
+strassenWin.s: strassenWin.cpp.s
+.PHONY : strassenWin.s
+
+# target to generate assembly for a file
+strassenWin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/strassenWin.cpp.s
+.PHONY : strassenWin.cpp.s
+
+winogradScaled.o: winogradScaled.cpp.o
+.PHONY : winogradScaled.o
+
+# target to build an object file
+winogradScaled.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/winogradScaled.cpp.o
+.PHONY : winogradScaled.cpp.o
+
+winogradScaled.i: winogradScaled.cpp.i
+.PHONY : winogradScaled.i
+
+# target to preprocess a source file
+winogradScaled.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/winogradScaled.cpp.i
+.PHONY : winogradScaled.cpp.i
+
+winogradScaled.s: winogradScaled.cpp.s
+.PHONY : winogradScaled.s
+
+# target to generate assembly for a file
+winogradScaled.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/winogradScaled.cpp.s
+.PHONY : winogradScaled.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +549,54 @@ help:
 	@echo "... NaivOnArray.o"
 	@echo "... NaivOnArray.i"
 	@echo "... NaivOnArray.s"
+	@echo "... Winograd.o"
+	@echo "... Winograd.i"
+	@echo "... Winograd.s"
 	@echo "... aux.o"
 	@echo "... aux.i"
 	@echo "... aux.s"
+	@echo "... blockEnIII.o"
+	@echo "... blockEnIII.i"
+	@echo "... blockEnIII.s"
+	@echo "... blockEnhIV.o"
+	@echo "... blockEnhIV.i"
+	@echo "... blockEnhIV.s"
+	@echo "... blockParIV.o"
+	@echo "... blockParIV.i"
+	@echo "... blockParIV.s"
+	@echo "... blockSeqIV.o"
+	@echo "... blockSeqIV.i"
+	@echo "... blockSeqIV.s"
+	@echo "... blockSeqV.o"
+	@echo "... blockSeqV.i"
+	@echo "... blockSeqV.s"
+	@echo "... bloqSeqIII.o"
+	@echo "... bloqSeqIII.i"
+	@echo "... bloqSeqIII.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... naivLoopUnrollingFour.o"
+	@echo "... naivLoopUnrollingFour.i"
+	@echo "... naivLoopUnrollingFour.s"
+	@echo "... naivLoopUnrollingTwo.o"
+	@echo "... naivLoopUnrollingTwo.i"
+	@echo "... naivLoopUnrollingTwo.s"
+	@echo "... parallelBlockV.o"
+	@echo "... parallelBlockV.i"
+	@echo "... parallelBlockV.s"
+	@echo "... parallelbloqIII.o"
+	@echo "... parallelbloqIII.i"
+	@echo "... parallelbloqIII.s"
+	@echo "... strassenNaiv.o"
+	@echo "... strassenNaiv.i"
+	@echo "... strassenNaiv.s"
+	@echo "... strassenWin.o"
+	@echo "... strassenWin.i"
+	@echo "... strassenWin.s"
+	@echo "... winogradScaled.o"
+	@echo "... winogradScaled.i"
+	@echo "... winogradScaled.s"
 .PHONY : help
 
 

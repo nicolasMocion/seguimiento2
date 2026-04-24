@@ -18,7 +18,22 @@ find_package(OpenMP REQUIRED)
 # --- CREACIÓN DEL EJECUTABLE ---
 add_executable(seguimiento2 main.cpp
         aux.cpp
-        NaivOnArray.cpp)
+        NaivOnArray.cpp
+        naivLoopUnrollingTwo.cpp
+        naivLoopUnrollingFour.cpp
+        Winograd.cpp
+        functions.h
+        winogradScaled.cpp
+        strassenNaiv.cpp
+        strassenWin.cpp
+        bloqSeqIII.cpp
+        parallelbloqIII.cpp
+        blockEnIII.cpp
+        blockSeqIV.cpp
+        blockParIV.cpp
+        blockEnhIV.cpp
+        blockSeqV.cpp
+        parallelBlockV.cpp)
 
 # --- VINCULACIÓN ---
 if(OpenMP_CXX_FOUND)

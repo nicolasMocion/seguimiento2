@@ -81,10 +81,55 @@
 		<Unit filename="/Users/nicolas/seguimiento2/NaivOnArray.cpp">
 			<Option target="seguimiento2"/>
 		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/Winograd.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/seguimiento2/aux.cpp">
 			<Option target="seguimiento2"/>
 		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/blockEnIII.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/blockEnhIV.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/blockParIV.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/blockSeqIV.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/blockSeqV.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/bloqSeqIII.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/functions.h">
+			<Option target="seguimiento2"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/seguimiento2/main.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/naivLoopUnrollingFour.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/naivLoopUnrollingTwo.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/parallelBlockV.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/parallelbloqIII.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/strassenNaiv.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/strassenWin.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/winogradScaled.cpp">
 			<Option target="seguimiento2"/>
 		</Unit>
 		<Unit filename="/Users/nicolas/seguimiento2/CMakeLists.txt">

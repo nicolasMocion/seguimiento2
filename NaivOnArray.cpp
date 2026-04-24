@@ -2,17 +2,10 @@
 // Created by Nicolas osorio on 23/04/26.
 //
 
-#include <iostream>
 #include <vector>
-#include <thread>
-#include <chrono>
-#include <iomanip>
-#include <vector>
-#include <algorithm>
-#include <omp.h>
+#include "functions.h"
 
 using namespace std;
-
 
 void multiplicarNaivOnArray(const vector<vector<int64_t>>& A, const vector<vector<int64_t>>& B, vector<vector<int64_t>>& C, int n) {
     for (int i = 0; i < n; i++) {
