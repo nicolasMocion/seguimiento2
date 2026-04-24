@@ -16,7 +16,9 @@ set(OpenMP_omp_LIBRARY /opt/homebrew/opt/libomp/lib/libomp.dylib)
 find_package(OpenMP REQUIRED)
 
 # --- CREACIÓN DEL EJECUTABLE ---
-add_executable(seguimiento2 main.cpp)
+add_executable(seguimiento2 main.cpp
+        aux.cpp
+        NaivOnArray.cpp)
 
 # --- VINCULACIÓN ---
 if(OpenMP_CXX_FOUND)
