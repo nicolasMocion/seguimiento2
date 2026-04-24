@@ -129,6 +129,54 @@ seguimiento2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/build
 .PHONY : seguimiento2/fast
 
+NaivOnArray.o: NaivOnArray.cpp.o
+.PHONY : NaivOnArray.o
+
+# target to build an object file
+NaivOnArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o
+.PHONY : NaivOnArray.cpp.o
+
+NaivOnArray.i: NaivOnArray.cpp.i
+.PHONY : NaivOnArray.i
+
+# target to preprocess a source file
+NaivOnArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.i
+.PHONY : NaivOnArray.cpp.i
+
+NaivOnArray.s: NaivOnArray.cpp.s
+.PHONY : NaivOnArray.s
+
+# target to generate assembly for a file
+NaivOnArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s
+.PHONY : NaivOnArray.cpp.s
+
+aux.o: aux.cpp.o
+.PHONY : aux.o
+
+# target to build an object file
+aux.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/aux.cpp.o
+.PHONY : aux.cpp.o
+
+aux.i: aux.cpp.i
+.PHONY : aux.i
+
+# target to preprocess a source file
+aux.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/aux.cpp.i
+.PHONY : aux.cpp.i
+
+aux.s: aux.cpp.s
+.PHONY : aux.s
+
+# target to generate assembly for a file
+aux.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/seguimiento2.dir/build.make CMakeFiles/seguimiento2.dir/aux.cpp.s
+.PHONY : aux.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... seguimiento2"
+	@echo "... NaivOnArray.o"
+	@echo "... NaivOnArray.i"
+	@echo "... NaivOnArray.s"
+	@echo "... aux.o"
+	@echo "... aux.i"
+	@echo "... aux.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

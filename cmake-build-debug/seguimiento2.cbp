@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nicolas/seguimiento2/NaivOnArray.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
+		<Unit filename="/Users/nicolas/seguimiento2/aux.cpp">
+			<Option target="seguimiento2"/>
+		</Unit>
 		<Unit filename="/Users/nicolas/seguimiento2/main.cpp">
 			<Option target="seguimiento2"/>
 		</Unit>

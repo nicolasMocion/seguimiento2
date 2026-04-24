@@ -55,6 +55,18 @@ build CMakeFiles/seguimiento2.dir/main.cpp.o: CXX_COMPILER__seguimiento2_unscann
   OBJECT_DIR = CMakeFiles/seguimiento2.dir
   OBJECT_FILE_DIR = CMakeFiles/seguimiento2.dir
 
+build CMakeFiles/seguimiento2.dir/aux.cpp.o: CXX_COMPILER__seguimiento2_unscanned_Debug /Users/nicolasosorio/seguimiento2/aux.cpp || cmake_object_order_depends_target_seguimiento2
+  DEP_FILE = CMakeFiles/seguimiento2.dir/aux.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/seguimiento2.dir
+  OBJECT_FILE_DIR = CMakeFiles/seguimiento2.dir
+
+build CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o: CXX_COMPILER__seguimiento2_unscanned_Debug /Users/nicolasosorio/seguimiento2/NaivOnArray.cpp || cmake_object_order_depends_target_seguimiento2
+  DEP_FILE = CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include
+  OBJECT_DIR = CMakeFiles/seguimiento2.dir
+  OBJECT_FILE_DIR = CMakeFiles/seguimiento2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target seguimiento2
@@ -63,7 +75,7 @@ build CMakeFiles/seguimiento2.dir/main.cpp.o: CXX_COMPILER__seguimiento2_unscann
 #############################################
 # Link the executable seguimiento2
 
-build seguimiento2: CXX_EXECUTABLE_LINKER__seguimiento2_Debug CMakeFiles/seguimiento2.dir/main.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
+build seguimiento2: CXX_EXECUTABLE_LINKER__seguimiento2_Debug CMakeFiles/seguimiento2.dir/main.cpp.o CMakeFiles/seguimiento2.dir/aux.cpp.o CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o | /opt/homebrew/opt/libomp/lib/libomp.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   LINK_LIBRARIES = /opt/homebrew/opt/libomp/lib/libomp.dylib
   OBJECT_DIR = CMakeFiles/seguimiento2.dir

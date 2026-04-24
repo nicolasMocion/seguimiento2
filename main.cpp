@@ -10,56 +10,10 @@
 #include <functional>
 #include <fstream>
 #include <utility>
+#include "aux.cpp"
 
 
 using namespace std;
-
-void inicializarMatriz(vector<vector<int64_t>>& matriz, int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            // Genera números de mínimo 6 dígitos (ej. 100000 a 999999)
-            matriz[i][j] = rand() % 900000 + 100000;
-        }
-    }
-}
-
-// Función para imprimir una muestra de la matriz
-void imprimirMuestraMatriz(const string& nombre, const vector<vector<int64_t>>& matriz, int limite = 5) {
-    int n = matriz.size();
-
-    // Nos aseguramos de no intentar imprimir más de lo que la matriz tiene
-    int filasAMostrar = min(n, limite);
-    int columnasAMostrar = min(n, limite);
-
-    cout << "\n=== Muestra de la matriz: " << nombre << " (Primeros " << filasAMostrar << "x" << columnasAMostrar << ") ===" << endl;
-
-    for (int i = 0; i < filasAMostrar; i++) {
-        for (int j = 0; j < columnasAMostrar; j++) {
-            // setw(8) asegura que todos los números se alineen en columnas de 8 espacios
-            cout << setw(8) << matriz[i][j] << " ";
-        }
-        cout << endl; // Salto de línea al terminar la fila
-    }
-    cout << "========================================================\n" << endl;
-}
-
-// --- Función Auxiliar para Sumar Matrices ---
-void sumarMatrices(const vector<vector<int64_t>>& A, const vector<vector<int64_t>>& B, vector<vector<int64_t>>& C, int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            C[i][j] = A[i][j] + B[i][j];
-        }
-    }
-}
-
-// --- Función Auxiliar para Restar Matrices ---
-void restarMatrices(const vector<vector<int64_t>>& A, const vector<vector<int64_t>>& B, vector<vector<int64_t>>& C, int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            C[i][j] = A[i][j] - B[i][j];
-        }
-    }
-}
 
 // ---------------------------------------------------------
 // 1. NaivOnArray
@@ -652,7 +606,7 @@ void ejecutarYMedir(string nombreAlgoritmo, function<void()> algoritmo, double& 
 
 int main() {
     // REQUERIMIENTO 1: Casos de prueba (256 y 512)
-    vector<int> casosDePrueba = {1024, 512};
+    vector<int> casosDePrueba = {2048, 512};
     string nombreArchivoCSV = "resultados_benchmark.csv";
     int blockSize = 32; // Tamaño de bloque ideal para la Caché L1
 
@@ -735,7 +689,6 @@ int main() {
 
     cout << "\n=================================================\n";
     cout << "PROYECTO FINALIZADO CON ÉXITO.\n";
-    cout << "Revisa tus archivos .txt y .csv en la carpeta del proyecto.\n";
     cout << "=================================================\n";
 
     return 0;

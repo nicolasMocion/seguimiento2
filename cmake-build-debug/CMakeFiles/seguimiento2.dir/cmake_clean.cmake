@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o"
+  "CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o.d"
+  "CMakeFiles/seguimiento2.dir/aux.cpp.o"
+  "CMakeFiles/seguimiento2.dir/aux.cpp.o.d"
   "CMakeFiles/seguimiento2.dir/main.cpp.o"
   "CMakeFiles/seguimiento2.dir/main.cpp.o.d"
   "seguimiento2"

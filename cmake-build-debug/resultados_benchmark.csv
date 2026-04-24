@@ -1,36 +1,36 @@
---- CASO DE PRUEBA: Matriz 1024x1024 ---
+--- CASO DE PRUEBA: Matriz 2048x2048 ---
 Algoritmo,Tiempo (segundos)
-1. NaivOnArray,20.5594
-2. NaivLoopUnrollingTwo,20.0422
-3. NaivLoopUnrollingFour,19.7864
-4. Winograd Original,21.5719
-5. Winograd Scaled,23.4729
-6. StrassenNaiv,15.7015
-7. Strassen Winograd,15.9437
-8. III.3 Block Sequential,23.6625
-9. III.4 Block Parallel,10.65
-10. III.5 Block Enhanced,7.66492
-11. IV.3 Block Sequential,23.129
-12. IV.4 Block Parallel,10.4347
-13. IV.5 Block Enhanced,7.07411
-14. V.3 Block Sequential,23.7632
-15. V.4 Block Parallel,10.6542
+1. NaivOnArray,406.509
+2. NaivLoopUnrollingTwo,398.676
+3. NaivLoopUnrollingFour,396.781
+4. Winograd Original,408.497
+5. Winograd Scaled,414.546
+6. StrassenNaiv,233.851
+7. Strassen Winograd,238.591
+8. III.3 Block Sequential,394.891
+9. III.4 Block Parallel,173.177
+10. III.5 Block Enhanced,119.378
+11. IV.3 Block Sequential,371.246
+12. IV.4 Block Parallel,164.285
+13. IV.5 Block Enhanced,105.82
+14. V.3 Block Sequential,394.169
+15. V.4 Block Parallel,172.501
 
 --- CASO DE PRUEBA: Matriz 512x512 ---
 Algoritmo,Tiempo (segundos)
-1. NaivOnArray,2.30438
-2. NaivLoopUnrollingTwo,2.1663
-3. NaivLoopUnrollingFour,2.18837
-4. Winograd Original,2.37029
-5. Winograd Scaled,2.22643
-6. StrassenNaiv,1.98899
-7. Strassen Winograd,2.06607
-8. III.3 Block Sequential,2.72388
-9. III.4 Block Parallel,1.26829
-10. III.5 Block Enhanced,0.935867
-11. IV.3 Block Sequential,2.67076
-12. IV.4 Block Parallel,1.25028
-13. IV.5 Block Enhanced,0.968513
-14. V.3 Block Sequential,2.67606
-15. V.4 Block Parallel,1.27218
+1. NaivOnArray,4.64952
+2. NaivLoopUnrollingTwo,4.59137
+3. NaivLoopUnrollingFour,4.45881
+4. Winograd Original,4.78348
+5. Winograd Scaled,4.73849
+6. StrassenNaiv,4.06091
+7. Strassen Winograd,4.08899
+8. III.3 Block Sequential,5.57741
+9. III.4 Block Parallel,2.61529
+10. III.5 Block Enhanced,1.83942
+11. IV.3 Block Sequential,5.45752
+12. IV.4 Block Parallel,2.52512
+13. IV.5 Block Enhanced,1.61038
+14. V.3 Block Sequential,5.57384
+15. V.4 Block Parallel,2.62145
 

@@ -83,18 +83,50 @@ CMakeFiles/seguimiento2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/main.cpp -o CMakeFiles/seguimiento2.dir/main.cpp.s
 
+CMakeFiles/seguimiento2.dir/aux.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/aux.cpp.o: /Users/nicolas/seguimiento2/aux.cpp
+CMakeFiles/seguimiento2.dir/aux.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/seguimiento2.dir/aux.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/aux.cpp.o -MF CMakeFiles/seguimiento2.dir/aux.cpp.o.d -o CMakeFiles/seguimiento2.dir/aux.cpp.o -c /Users/nicolas/seguimiento2/aux.cpp
+
+CMakeFiles/seguimiento2.dir/aux.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/aux.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/aux.cpp > CMakeFiles/seguimiento2.dir/aux.cpp.i
+
+CMakeFiles/seguimiento2.dir/aux.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/aux.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/aux.cpp -o CMakeFiles/seguimiento2.dir/aux.cpp.s
+
+CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o: CMakeFiles/seguimiento2.dir/flags.make
+CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o: /Users/nicolas/seguimiento2/NaivOnArray.cpp
+CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o: CMakeFiles/seguimiento2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o -MF CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o.d -o CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o -c /Users/nicolas/seguimiento2/NaivOnArray.cpp
+
+CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nicolas/seguimiento2/NaivOnArray.cpp > CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.i
+
+CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nicolas/seguimiento2/NaivOnArray.cpp -o CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.s
+
 # Object files for target seguimiento2
 seguimiento2_OBJECTS = \
-"CMakeFiles/seguimiento2.dir/main.cpp.o"
+"CMakeFiles/seguimiento2.dir/main.cpp.o" \
+"CMakeFiles/seguimiento2.dir/aux.cpp.o" \
+"CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o"
 
 # External object files for target seguimiento2
 seguimiento2_EXTERNAL_OBJECTS =
 
 seguimiento2: CMakeFiles/seguimiento2.dir/main.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/aux.cpp.o
+seguimiento2: CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o
 seguimiento2: CMakeFiles/seguimiento2.dir/build.make
 seguimiento2: /opt/homebrew/opt/libomp/lib/libomp.dylib
 seguimiento2: CMakeFiles/seguimiento2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable seguimiento2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nicolas/seguimiento2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable seguimiento2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/seguimiento2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

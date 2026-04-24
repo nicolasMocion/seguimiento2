@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/nicolas/seguimiento2/NaivOnArray.cpp" "CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o" "gcc" "CMakeFiles/seguimiento2.dir/NaivOnArray.cpp.o.d"
+  "/Users/nicolas/seguimiento2/aux.cpp" "CMakeFiles/seguimiento2.dir/aux.cpp.o" "gcc" "CMakeFiles/seguimiento2.dir/aux.cpp.o.d"
   "/Users/nicolas/seguimiento2/main.cpp" "CMakeFiles/seguimiento2.dir/main.cpp.o" "gcc" "CMakeFiles/seguimiento2.dir/main.cpp.o.d"
   )
 
