@@ -84,8 +84,7 @@ void ejecutarYMedir(string nombreAlgoritmo, function<void()> algoritmo, double& 
 
 
 int main() {
-    // REQUERIMIENTO 1: Casos de prueba (256 y 512)
-    vector<int> casosDePrueba = {2048, 512};
+    vector<int> casosDePrueba = {1024, 512};
     string nombreArchivoCSV = "resultados_benchmark.csv";
     int blockSize = 32; // Tamaño de bloque ideal para la Caché L1
 

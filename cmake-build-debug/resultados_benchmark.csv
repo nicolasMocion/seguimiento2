@@ -1,0 +1,36 @@
+--- CASO DE PRUEBA: Matriz 1024x1024 ---
+Algoritmo,Tiempo (segundos)
+1. NaivOnArray,22.1266
+2. NaivLoopUnrollingTwo,21.7472
+3. NaivLoopUnrollingFour,21.5164
+4. Winograd Original,23.6621
+5. Winograd Scaled,23.7947
+6. StrassenNaiv,15.8121
+7. Strassen Winograd,16.1977
+8. III.3 Block Sequential,24.3463
+9. III.4 Block Parallel,10.668
+10. III.5 Block Enhanced,7.59068
+11. IV.3 Block Sequential,23.8683
+12. IV.4 Block Parallel,10.4408
+13. IV.5 Block Enhanced,6.86051
+14. V.3 Block Sequential,24.2272
+15. V.4 Block Parallel,10.5664
+
+--- CASO DE PRUEBA: Matriz 512x512 ---
+Algoritmo,Tiempo (segundos)
+1. NaivOnArray,2.29346
+2. NaivLoopUnrollingTwo,2.28134
+3. NaivLoopUnrollingFour,2.22803
+4. Winograd Original,2.37412
+5. Winograd Scaled,2.33288
+6. StrassenNaiv,2.05062
+7. Strassen Winograd,2.14041
+8. III.3 Block Sequential,2.7802
+9. III.4 Block Parallel,1.30422
+10. III.5 Block Enhanced,0.978721
+11. IV.3 Block Sequential,2.70122
+12. IV.4 Block Parallel,1.29952
+13. IV.5 Block Enhanced,0.931289
+14. V.3 Block Sequential,2.76768
+15. V.4 Block Parallel,1.33986
+
